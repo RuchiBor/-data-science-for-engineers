@@ -2,7 +2,7 @@
 
 ![Powered by Jupyter Logo](https://cdn.oreillystatic.com/images/icons/powered_by_jupyter.png)
 
-This project contains the Jupyter Notebooks and supporting files for _Data Science for Engineers: Basic Techniques for Automating Anomaly Detection and Analysis_ with ${INSTRUCTOR}. 
+This project contains the Jupyter Notebooks and supporting files for _Data Science for Engineers: Basic Techniques for Automating Anomaly Detection and Analysis_ with Tuli Nivas. 
 
 These notebooks can be run on the O'Reilly Learning Platform [here](https://learning.oreilly.com/jupyter-notebooks/~/${NOTEBOOK_FPID}).
 
