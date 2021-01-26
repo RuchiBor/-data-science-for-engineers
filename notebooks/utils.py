@@ -1,14 +1,3 @@
-'''
-import featuretools as ft
-import numpy as np
-import pandas as pd
-from featuretools.primitives import (Day, Hour, Max, Mean, Min, Minute, Month,
-                                     Skew, Std, Week, Weekday,IsWeekend)
-from sklearn.cluster import KMeans
-from sklearn.model_selection import train_test_split
-from sklearn.impute import SimpleImputer
-imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
-'''
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
