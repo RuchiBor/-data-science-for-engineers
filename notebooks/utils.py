@@ -1,4 +1,3 @@
-
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import featuretools as ft
@@ -57,14 +56,14 @@ def column_string(n):
 
 
 def load_nyc_taxi_data():
-    trips = pd.read_pickle('trips.pkl')
+    trips = pd.read_pickle('../data/trips.pkl')
     trips["payment_type"] = trips["payment_type"].apply(str)
     trips = trips.dropna(axis=0, how='any', subset=['trip_duration'])
 
     pickup_neighborhoods = pd.read_csv(
-        "pickup_neighborhoods.csv", encoding='utf-8')
+        "../data/pickup_neighborhoods.csv", encoding='utf-8')
     dropoff_neighborhoods = pd.read_csv(
-        "dropoff_neighborhoods.csv", encoding='utf-8')
+        "../data/dropoff_neighborhoods.csv", encoding='utf-8')
 
     return trips, pickup_neighborhoods, dropoff_neighborhoods
 
