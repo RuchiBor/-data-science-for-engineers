@@ -2,8 +2,8 @@
 ## Exercise 1
 featuretools==0.1.19
 jupyter==1.0.0
-pandas==1.0.1
-scikit-learn==0.22.1
+pandas==0.20.3
+scikit-learn==0.19.1
 numpy==1.18.1
 
 ## Exercise 2
