@@ -1,6 +1,6 @@
 ## Please list additional packages with version numbers
 ## Exercise 1
-featuretools==0.17.0
+featuretools==0.1.19
 jupyter==1.0.0
 pandas==1.0.1
 scikit-learn==0.22.1
