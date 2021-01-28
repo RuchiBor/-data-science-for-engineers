@@ -18,5 +18,5 @@ seaborn==0.10.0
 jupyter==1.0.0
 numpy==1.18.1
 pandas==1.0.1
-networkx=2.4
+networkx==2.4
 mkl_random==1.1.0
